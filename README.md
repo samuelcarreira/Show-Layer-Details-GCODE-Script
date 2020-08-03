@@ -1,27 +1,38 @@
-# ShowLayerDetailsGcodeScript
+# Show Layer Details GCODE Script
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+## **WARNING: This is a work in progress! **
 
-## Development server
+A simple offline script to process your ideaMaker Slicer generated GCODE and add more details: current and total layers, layer height and type of structure
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-## Code scaffolding
+![Details](label.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to use
+- Open the webpage
+- Click Upload
+- Save the processed GCODE file
 
-## Build
+![Preview](lcd-mockup.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Motivation and history
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Other slicers 
+### Cura
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Prusa Slicer
 
-## Further help
+### Simplify3D
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Acknowledgments
+
+* Inspired on [ShowLayer script](https://github.com/AmedeeBulle/ShowLayer/blob/master/scripts/ShowLayer.py) by Philippe Vanhaesendonck
+
+
+## License
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="http://samuelcarreira.com" target="_blank">Samuel Carreira</a>.

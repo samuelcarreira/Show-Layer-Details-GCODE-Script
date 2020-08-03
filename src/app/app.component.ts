@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'show-layer-details-gcode-script';
+
+  constructor() { }
+
 }
